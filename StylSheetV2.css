@@ -4,6 +4,7 @@ body {
     margin: 0;
     position: relative;
     background-color: #0c0c0c;
+    overflow: hidden;
 }
 
 header {
@@ -20,17 +21,21 @@ nav {
     background-color: rgba(238, 130, 51, 90%);
     width: 95%;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 25px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     transition:all 1s;
     z-index: 1;
 }
 
 .FirstTitle {
-    margin-left: 15px;
+    margin: 10px 0 0 20px;
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
+}
+
+.center-nav {
+    margin-top: 20px;
 }
 
 .nav-Link {
@@ -38,6 +43,10 @@ nav {
     padding: 0 1.5rem;
     color: black;
     text-decoration: none;
+}
+
+.right-nav {
+    margin-top: 20px;
 }
 
 #log-link {
@@ -63,14 +72,14 @@ main {
 }
 
 #back-ground-img-menu {
-    display: flex;
     position: absolute;
+    top: -940px;
     background-image: url(cover.b217f915.jpg);
-    background-size: 97%;
+    background-size: 95%;
     background-position-y: -170px;
-    background-position-x: 50px;
     width: 100%;
-    transition:all 1s;
+    transition:all 0.7s;
+    height: 100vh;
 }
 
 .firstPick {
