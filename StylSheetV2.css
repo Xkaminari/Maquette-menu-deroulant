@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tangerine&display=swap');
+
+body {
+    margin: 0;
+    position: relative;
+    background-color: #0c0c0c;
+}
+
+header {
+    position: absolute;
+    margin-top: 35px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(238, 130, 51, 90%);
+    width: 95%;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    transition:all 1s;
+    z-index: 1;
+}
+
+.FirstTitle {
+    margin-left: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.nav-Link {
+    font-family: sans-serif;
+    padding: 0 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+#log-link {
+    padding: 0;
+}
+
+.nav-button {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 15px;
+}
+
+
+/* -------------------------------------------------*/
+/* ------------------------main---------------------*/
+/* -------------------------------------------------*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+#back-ground-img-menu {
+    display: flex;
+    position: absolute;
+    background-image: url(cover.b217f915.jpg);
+    background-size: 97%;
+    background-position-y: -170px;
+    background-position-x: 50px;
+    width: 100%;
+    transition:all 1s;
+}
+
+.firstPick {
+    background-size: cover;
+    background-position-y: -25px;
+    width: 345px;
+    height: 413px;
+}
+
+.left-colum {
+    display: flex;
+    flex-flow: column;
+}
+
+.date {
+    color: rgb(238, 130, 51);
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+#date1 {
+    margin: 0 0 0 10rem;
+}
+
+.Title {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: #ee8233;
+    margin: 0;
+    background-image: url(img2.59037730.jpg) ;
+    background-position-y: -100px;
+    background-size: cover;
+    width: 960px;
+    height: 100vh;
+    font-size: 12em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 12.5vh);
+    justify-items: center;
+}
+
+#lettre1 {
+    grid-row: 2;
+}
+
+#lettre2 {
+    grid-row: 5;
+}
+
+#lettre3 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#lettre4 {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#slogant {
+    width: 25%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 150px;
+    right: 300px;
+    font-style: italic;
+    z-index: 1;
+}
+
+#date2 {
+    margin: 190px 0 0 0;
+    font-size: 8em;
+}
+
+.thirdPick {
+    background-size: cover;
+    width: 351px;
+    height: 580px;
+}
+
+/* -------------------------------------------------*/
+/* -----------------------footer--------------------*/
+/* -------------------------------------------------*/
+
+footer {
+    height: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75em;
+    font-family: sans-serif;
+}
+
+.footer a {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.Gray {
+    color: grey;
+}
+
+.Orange {
+    color: #ee8233;
+}
+
+.footLink {
+    padding: 0 10px;
+
+}
+
+.footLink {
+    color: grey;
+}
+
+#Credits {
+    margin-left: 900px;
+}
+
+#sponsor {
+    color: white;
+}
